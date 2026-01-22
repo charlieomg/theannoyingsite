@@ -70,28 +70,14 @@ const SEARCHES = [
 ]
 
 const VIDEOS = [
-  'albundy.mp4',
-  'badger.mp4',
-  'cat.mp4',
-  'hasan.mp4',
-  'heman.mp4',
-  'jozin.mp4',
-  'nyan.mp4',
-  'rickroll.mp4',
-  'space.mp4',
+  'funky_size_change.webm',
+  'Bouncing.webm',
   'trolol.mp4'
 ]
 
 const FILE_DOWNLOADS = [
-  'cat-blue-eyes.jpg',
-  'cat-ceiling.jpg',
-  'cat-crosseyes.jpg',
-  'cat-cute.jpg',
   'cat-hover.jpg',
-  'cat-marshmellows.jpg',
-  'cat-small-face.jpg',
-  'cat-smirk.jpg',
-  'patreon.png'
+  'cat-cute.png'
 ]
 
 const PHRASES = [
