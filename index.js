@@ -52,21 +52,21 @@ const ART = [
 ]
 
 const SEARCHES = [
-  'where should i bury the body',
-  'why does my eye twitch',
-  'why is my poop green',
-  'why do i feel so empty',
-  'why do i always feel hungry',
-  'why do i always have diarrhea',
-  'why does my anus itch',
-  'why does my belly button smell',
-  'why does my cat attack me',
-  'why does my dog eat poop',
-  'why does my fart smell so bad',
-  'why does my mom hate me',
-  'why does my pee smell bad',
-  'why does my poop float',
-  'proof that the earth is flat'
+  'This account got hacked',
+  'memz download',
+  'Panzoka viruses download',
+  'free robux method unpatched',
+  'ROBLOX EXPLOITS DOWNLOAD NO VIRUS',
+  'fortnite cheats',
+  'how 2 remove anti virus',
+  'Do a barrel roll',
+  'Free viruses download',
+  'infinite robux glitch no virus',
+  'un blocked games free',
+  'where to buy free robux',
+  'how 2 escape school easy n fast',
+  'how to be wanted by irs for tax fraud',
+  'Wheres my i phoney'
 ]
 
 const VIDEOS = [
