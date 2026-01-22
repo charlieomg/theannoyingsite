@@ -1,23 +1,9 @@
- 
-<!doctype html>
-
-<!--
-  The Annoying Site
-  https://theannoyingsite.com
-
-  Author:
-    Feross Aboukhadijeh
-    https://feross.org
-
-  Patreon:
-    If you enjoyed this, please support me on Patreon!
-    https://www.patreon.com/feross
--->
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset='UTF-8'>
-  <meta name='theme-color' content='#fff' class='theme-color'/>
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#fff" class="theme-color"/>
+  <title>The Annoying Site</title>
   <style>
     html, body {
       width: 100%;
@@ -45,18 +31,10 @@
       width: 300px;
     }
     @keyframes blurslowly {
-      0% {
-        filter: none;
-      }
-      92% {
-        filter: blur(0);
-      }
-      96% {
-        filter: blur(1px);
-      }
-      100% {
-        filter: blur(0);
-      }
+      0% { filter: none; }
+      92% { filter: blur(0); }
+      96% { filter: blur(1px); }
+      100% { filter: blur(0); }
     }
     body {
       animation-name: blurslowly;
@@ -68,27 +46,32 @@
 </head>
 <body>
 
-<template>
-  <div class='hello-message'>
-    <h1>Hi there!</h1>
-    <h2>To get started, HOLD DOWN the space key for 3 seconds.</h2>
-    <h3>(or, on mobile, tap the cat!)</h3>
+<div id="site-container"></div>
 
-    <img src='/cat-cute.jpg' alt='Cute cat' />
-  </div>
-  <div class='logout-messages'></div>
-</template>
-
-<script src='https://raw.githubusercontent.com/charlieomg/theannoyingsite/refs/heads/main/index.js'></script>
-
-<script async src='https://www.googletagmanager.com/gtag/js?id=UA-3898076-24'></script>
 <script>
-  window.dataLayer = window.dataLayer || []
-  function gtag () {
-    window.dataLayer.push(arguments)
-  }
-  gtag('js', new Date())
-  gtag('config', 'UA-3898076-24')
+  // Insert the template content into the page
+  const templateHTML = `
+    <div class='hello-message'>
+      <h1>Hi there!</h1>
+      <h2>To get started, HOLD DOWN the space key for 3 seconds.</h2>
+      <h3>(or, on mobile, tap the cat!)</h3>
+      <img src='https://cdn.jsdelivr.net/gh/charlieomg/theannoyingsite@main/cat-cute.jpg' alt='Cute cat' />
+    </div>
+    <div class='logout-messages'></div>
+  `;
+  document.getElementById('site-container').innerHTML = templateHTML;
+</script>
+
+<!-- Correct jsDelivr URL for index.js -->
+<script src="https://cdn.jsdelivr.net/gh/charlieomg/theannoyingsite@main/index.js"></script>
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3898076-24"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){window.dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-3898076-24');
 </script>
 
 </body>
